@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="Index.css" />
+  </head>
+  <body>
+     <!-- dark mode functionaity start -->
+    <div class="toggle">
+      <label>
+        <input type="checkbox" id="toggle" />
+        <i class="fa-solid fa-moon" id="moon"></i>
+        <i class="fa-solid fa-sun" id="sun"></i>
+      </label>
+    </div>
+     <!-- dark mode functionaity end -->
+     <!-- main container of width 1240px with margin auto -->
+
+    <div class="container">
+     <!-- header start -->
+      <header>
+        <div class="logo">
+          <img src="Images/logo.png" alt="logo" />
+        </div>
+        <input type="checkbox" name="check" id="check" />
+        <label for="check" id="bar">
+          <i class="fa-solid fa-bars-staggered"></i>
+     </label>
+     <!-- navbar -->
+        <nav class="navbar">
+          <ul>
+            <li>
+              <a href="#about">About me</a>
+            </li>
+            <li>
+              <a href="#certificate">Certificate</a>
+            </li>
+            <li>
+              <a href="#skill">Skills</a>
+            </li>
+            <li>
+              <a href="#service">Services</a>
+            </li>
+            <li>
+              <a href="#project">Works</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- responsive navbar -->
+        <nav class="resnav">
+          <ul>
+            <li>
+              <a href="#about">About me</a>
+            </li>
+            <li>
+              <a href="#certificate">Certificate</a>
+            </li>
+            <li>
+              <a href="#skill">Skills</a>
+            </li>
+            <li>
+              <a href="#service">Services</a>
+            </li>
+            <li>
+              <a href="#project">Works</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+          <a href="Shobhit_Resume_Frontend_Fresh.pdf" download="Resume">
+               <button>Download Resume</button></a>
+        </nav>
+        <a
+          href="Shobhit_Resume_Frontend_Fresh.pdf"
+          download="Resume"
+          class="navbtn">
+          <button>Download Resume</button></a>
+      </header>
+      <!-- header end -->
+       <!-- home page start -->
+      <section>
+        <div class="content">
+          <div class="contentleft">
+            <h2 style="font-size: 1.8rem">Welcome .</h2>
+            <div class="verticlebar"></div>
+            <h4>
+              I'm Shobhit Mahajan , a passionate
+              <span>Web Developer</span> based in Indore,Madhya Pradesh India I
+              have developed Multiple Frontend Web Application from static to
+              dynamic websites
+            </h4>
+            <p>
+              I'm Passionate about to build creative UI Design , pixel perfect
+              beautifull design
+            </p>
+            <button>Contact me</button>
+          </div>
+
+          <div class="contentright">
+            <img src="./Images/Profileimg.png" alt="Profileimg" />
+          </div>
+        </div>
+      </section>
+      <!-- home page end -->
+       <!-- about section start -->
+      <article id="about">
+        <h1>About me .</h1>
+        <div class="about">
+          <div class="aboutleftside">
+            <img src="./Images/aboutsec.gif" alt="about me" />
+          </div>
+          <div class="aboutrightside">
+            <h4>
+              I'm Shobhit Mahajan, a passionate web developer with experience in
+              crafting user-centric and visually stunning web experiences. I
+              bring a blend of technical expertise and creative flair to every
+              project, ensuring your website not only looks great but also
+              functions flawlessly.
+            </h4>
+            <p>
+              I work closely with clients to understand their unique needs and
+              goals, translating them into digital solutions that deliver
+              results.
+            </p>
+          </div>
+        </div>
+      </article>
+     <!-- about section end -->
+      <!-- certificate section start -->
+      <div class="certificatesec" id="certificate">
+        <h1>Certificate's .</h1>
+        <div class="gallery">
+          <div class="gallerybox">
+            <h4>"Skill Vertex" Web Dev Internship Certificate</h4>
+          </div>
+          <div class="gallerybox">
+            <h4>"InternPe" Java Internship Certificate</h4>
+          </div>
+          <div class="gallerybox">
+            <h4>
+              Certification of Web Dev Program from "Edunoix Learning Solution"
+            </h4>
+          </div>
+          <div class="gallerybox">
+            <h4>Web Dev Bootcamp Certificate from "Codekro"</h4>
+          </div>
+          <div class="gallerybox">
+            <h4>UI Development Bootcamp Certificate from "Html Hints"</h4>
+          </div>
+          <div class="gallerybox">
+            <h4>7-Day bootcamp web Dev program Certificate from "DevTown"</h4>
+          </div>
+        </div>
+      </div>
+      <!-- certificate section end -->
+       <!-- skill section start -->
+      <div class="skillsec" id="skill">
+        <h1>My Skill .</h1>
+        <div class="skillcontent">
+          <div class="skillleftsec">
+            <h3>Technical Skill</h3>
+            <div class="bar">
+              <i class="fa-brands fa-html5" style="color: brown"></i>
+              <div class="skillheader">
+                <h4>HTML</h4>
+              </div>
+              <div class="progressbar html">
+                <span></span>
+              </div>
+            </div>
+            <div class="bar">
+              <i
+                class="fa-brands fa-css3-alt"
+                style="color: rgb(154, 154, 246)"
+              ></i>
+              <div class="skillheader">
+                <h4>CSS</h4>
+              </div>
+              <div class="progressbar css">
+                <span></span>
+              </div>
+            </div>
+
+            <div class="bar">
+              <i class="fa-brands fa-bootstrap" style="color: blue"></i>
+              <div class="skillheader">
+                <h4>BootStrap</h4>
+              </div>
+              <div class="progressbar bootstrap">
+                <span></span>
+              </div>
+            </div>
+
+            <div class="bar">
+              <i class="fa-brands fa-js" style="color: yellow"></i>
+              <div class="skillheader">
+                <h4>Javascript</h4>
+              </div>
+              <div class="progressbar js">
+                <span></span>
+              </div>
+            </div>
+
+            <div class="bar">
+              <i
+                class="fa-brands fa-react"
+                style="color: rgb(184, 184, 254)"
+              ></i>
+              <div class="skillheader">
+                <h4>React</h4>
+              </div>
+              <div class="progressbar react">
+                <span></span>
+              </div>
+            </div>
+
+            <div class="bar">
+              <i class="fa-brands fa-node-js" style="color: rgb(1, 49, 1)"></i>
+              <div class="skillheader">
+                <h4>Node</h4>
+              </div>
+              <div class="progressbar node">
+                <span></span>
+              </div>
+            </div>
+
+            <div class="bar">
+              <i
+                class="fa-brands fa-figma"
+                style="color: rgb(239, 161, 16)"
+              ></i>
+              <div class="skillheader">
+                <h4>Figma</h4>
+              </div>
+              <div class="progressbar figma">
+                <span></span>
+              </div>
+            </div>
+          </div>
+          <div class="skillrightsec">
+            <h3>Professional Skill</h3>
+            <div class="circularbar">
+              <div class="circularpath">
+                <svg x="0" y="0" viewBox="0 0 200 200">
+                  <circle
+                    class="circularprogressbar"
+                    cx="100"
+                    cy="100"
+                    r="80"
+                  ></circle>
+                  <circle
+                    class="circularpath path-1"
+                    cx="100"
+                    cy="100"
+                    r="80"
+                  ></circle>
+                </svg>
+                <div class="percentage"><h4>85%</h4></div>
+                <div class="description">Creativity</div>
+              </div>
+              <div class="circularpath">
+                <svg x="0" y="0" viewBox="0 0 200 200">
+                  <circle
+                    class="circularprogressbar"
+                    cx="100"
+                    cy="100"
+                    r="80"
+                  ></circle>
+                  <circle
+                    class="circularpath path-2"
+                    cx="100"
+                    cy="100"
+                    r="80"
+                  ></circle>
+                </svg>
+                <div class="percentage"><h4>75%</h4></div>
+                <div class="description">Communication</div>
+              </div>
+              <div class="circularpath">
+                <svg x="0" y="0" viewBox="0 0 200 200">
+                  <circle
+                    class="circularprogressbar"
+                    cx="100"
+                    cy="100"
+                    r="80"
+                  ></circle>
+                  <circle
+                    class="circularpath path-3"
+                    cx="100"
+                    cy="100"
+                    r="80"
+                  ></circle>
+                </svg>
+                <div class="percentage"><h4>88%</h4></div>
+                <div class="description">Team Work</div>
+              </div>
+              <div class="circularpath">
+                <svg x="0" y="0" viewBox="0 0 200 200">
+                  <circle
+                    class="circularprogressbar"
+                    cx="100"
+                    cy="100"
+                    r="80"
+                  ></circle>
+                  <circle
+                    class="circularpath path-4"
+                    cx="100"
+                    cy="100"
+                    r="80"
+                  ></circle>
+                </svg>
+                <div class="percentage"><h4>80%</h4></div>
+                <div class="description">Understanding</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- skill section end -->
+       <!-- service section start -->
+      <div class="servicesec" id="service">
+        <h1>How I can help you ?</h1>
+        <div class="servicecard">
+          <div class="card-service">
+            <div class="icon">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <h3>Websites that Wow</h3>
+            <p>
+              From simple portfolios to complex e-commerce platforms, I design
+              and develop websites that are tailored to your brand and target
+              audience.
+            </p>
+          </div>
+
+          <div class="card-service">
+            <div class="icon">
+              <i class="fa-solid fa-laptop-code"></i>
+            </div>
+            <h3>Responsive Design</h3>
+            <p>
+              Ensure your website looks amazing and functions seamlessly across
+              all devices, from desktops to smartphones.
+            </p>
+          </div>
+
+          <div class="card-service">
+            <div class="icon">
+              <i class="fa-solid fa-chart-line"></i>
+            </div>
+            <h3>Content Management Systems</h3>
+            <p>
+              Empower yourself with user-friendly CMS solutions that allow you
+              to easily manage and update your website content.
+            </p>
+          </div>
+
+          <div class="card-service">
+            <div class="icon">
+              <i class="fa-solid fa-shield"></i>
+            </div>
+            <h3>Web Applications that Work</h3>
+            <p>
+              Bring your web application ideas to life with efficient and
+              scalable development solutions.
+            </p>
+          </div>
+
+          <div class="card-service">
+            <div class="icon">
+              <i class="fa-solid fa-ranking-star"></i>
+            </div>
+            <h3>SEO Optimization</h3>
+            <p>
+              Improve your website's search engine ranking and attract organic
+              traffic
+            </p>
+          </div>
+
+          <div class="card-service">
+            <div class="icon">
+              <i class="fa-solid fa-gear"></i>
+            </div>
+            <h3>Ongoing Maintenance & Support</h3>
+            <p>
+              Keep your website running smoothly and securely with ongoing
+              maintenance and support plans
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- service section end -->
+       <!-- project section start -->
+      <div class="projectsec" id="project">
+        <h1>See What I've Built</h1>
+        <div class="projectcard">
+          <div class="cardcontainer">
+            <img
+              src="./Images/Project Images/fitfussion.png"
+              alt="fitfussion"
+              width="550px"
+            />
+            <a href="https://fitfussionstudio.tiiny.site/"
+              ><h3>FitFussion Static Web Application</h3></a
+            >
+            <p>
+              The website is fully responsive, ensuring it looks great on all
+              devices, from desktops to tablets to smartphones. Clean and Modern
+              Layout: Utilizes a clean and modern design aesthetic to provide an
+              intuitive user experience. Interactive Elements: Includes
+              interactive elements such as a booking form and feedback section
+              to enhance user engagement. Optimized for Performance: The site is
+              optimized for fast loading times and efficient performance.
+            </p>
+          </div>
+          <div class="cardcontainer">
+            <img
+              src="./Images/Project Images/thebox.png"
+              alt="thebox"
+              width="550px"
+            />
+            <a href="https://theboxconstruction.netlify.app/">
+              <h3>TheBox Static Web Application</h3></a
+            >
+            <p>
+              This static website serves as a professional online presence for
+              TheBox, a dedicated construction company specializing in
+              residential renovations, commercial construction, sustainable
+              building practices.
+            </p>
+          </div>
+          <div class="cardcontainer">
+            <img
+              src="./Images/Project Images/News_website.png"
+              alt="News_website"
+              width="550px"
+            />
+            <a
+              href="https://github.com/shobhit-mahajan/News-APi-Project---Feature-Feed"
+            >
+              <h3>A Feature-Rich News Website</h3></a
+            >
+            <p>
+              Get the latest headlines, explore personalized horoscopes, and
+              stay on top of the weather – all in one place .This dynamic
+              website provides a comprehensive news experience with features
+              designed for ease of use and personalization.
+            </p>
+          </div>
+          <div class="cardcontainer">
+            <img
+              src="./Images/Project Images/scanify.png"
+              alt="scanify"
+              width="550px"
+              height="260px"
+            />
+            <a
+              href="https://github.com/shobhit-mahajan/ScaniFy-Qr-Code-Generator-and-Scanner"
+              ><h3>Scanify - A chrome extension</h3></a
+            >
+            <p>
+              ScaniFy is a versatile tool that allows you to generate QR codes
+              and scan them with your phone. You can also download QR codes and
+              share them with your friends. With ScaniFy, you can easily share
+              information and connect with others in a fast and efficient way.
+            </p>
+          </div>
+          <div class="cardcontainer">
+            <img
+              src="./Images/Project Images/restaurant-websites_6.png"
+              alt="restaurant-websites"
+              width="550px"
+              height="350px"
+            />
+            <a href="#"><h3>Restaurant Static Web Application</h3></a>
+            <p>
+              This static website is your gateway to the culinary delights
+              offered by our Restaurant. Explore our menu, discover our inviting
+              atmosphere, and get all the information you need for a memorable
+              dining experience.
+            </p>
+          </div>
+          <div class="cardcontainer">
+            <img
+              src="./Images/Project Images/furniture_website.jpeg"
+              alt="furniture_website"
+              width="550px"
+              height="350px"
+            />
+            <a href="#"><h3>Furniture Static Web Application</h3></a>
+            <p>
+              Welcome to your one-stop shop for creating a stylish and
+              comfortable home! This static website is your gateway to the
+              curated collection of furniture offered by our furniture store
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- project section end -->
+       <!-- contact section start -->
+      <div class="contactsec" id="contact">
+        <h1>Let's Build Something Great Together .</h1>
+        <div class="contactcontainer">
+          <div class="linksec">
+            <div class="linkcontain">
+              <div class="icn">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <h4>Call us Directly</h4>
+              <a href="tel:89894402XX"><button>Let's connect</button></a>
+            </div>
+            <div class="linkcontain">
+              <div class="icn">
+                <i class="fa-brands fa-github"></i>
+              </div>
+              <h4>Github Account</h4>
+              <a href="https://github.com/shobhit-mahajan"
+                ><button>Let's connect</button></a
+              >
+            </div>
+            <div class="linkcontain">
+              <div class="icn">
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+              <h4>Linkedin Account</h4>
+              <a href="https://www.linkedin.com/in/shobhitmahajan38/"
+                ><button>Let's connect</button></a
+              >
+            </div>
+            <div class="linkcontain">
+              <div class="icn">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <h4>Gmail</h4>
+              <a href="mailto: mahajanshobhit38@gmail.com"
+                ><button>Let's connect</button></a
+              >
+            </div>
+          </div>
+          <div class="inputfields">
+            <h2>Get in Touch</h2>
+            <div class="formcontent">
+              <div class="name">
+                <label for="firstname"></label>
+                <input
+                  type="text"
+                  id="firstname"
+                  placeholder="firstname"
+                  required
+                />
+                <label for="lastname"></label>
+                <input
+                  type="text"
+                  id="lastname"
+                  placeholder="lastname"
+                  required
+                />
+              </div>
+              <div class="contactdetail">
+                <label for="mobileno"></label>
+                <input
+                  type="tel"
+                  id="mobileno"
+                  placeholder="mobile number"
+                  required
+                />
+                <label for="email"></label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="email address"
+                  required
+                />
+              </div>
+              <textarea
+                name="query"
+                id=""
+                cols="40"
+                rows="10"
+                placeholder="message"
+              ></textarea>
+              <button>Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- contact section end -->
+     </div>
+     <!-- a container of width 1240px end -->
+    <!-- footer start -->
+    <footer>
+      <div class="footercontent">
+        <div class="leftfooter">
+          <h2>
+            <span><i class="fa-solid fa-user"></i></span>Shobhit Mahajan
+          </h2>
+          <p>
+            a passionate web developer with experience in crafting user-centric
+            and visually stunning web experiences. I bring a blend of technical
+            expertise and creative flair to every project, ensuring your website
+            not only looks great but also functions flawlessly.
+          </p>
+          <button>Let's Work Together</button>
+        </div>
+        <div class="centerfooter">
+          <ul>
+            <li>
+              <a href="#about">About me</a>
+            </li>
+            <li>
+              <a href="#certificate">Certificate</a>
+            </li>
+            <li>
+              <a href="#skill">Skills</a>
+            </li>
+            <li>
+              <a href="#service">Services</a>
+            </li>
+            <li>
+              <a href="#project">Works</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="rightfooter">
+          <a href="tel:8989440299"> <i class="fa-solid fa-phone"></i></a>
+          <a href="https://github.com/shobhit-mahajan">
+            <i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/shobhitmahajan38/"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="mailto: mahajanshobhit38@gmail.com"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+        </div>
+      </div>
+      <div class="copywrite">
+        <p>
+          &#169; All Rights are reserved | <a href="#">Privacy</a> |
+          <a href="#">
+            Terms and Condition | Developed and Maintained by Shobhit Mahajan</a
+          >
+        </p>
+      </div>
+    </footer>
+    <!-- footer end -->
+  </body>
+</html>
